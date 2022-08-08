@@ -1,0 +1,108 @@
+body{
+    background-image:radial-gradient(#edd3af,#fae8cf,#f2e5d3,#f0e7da);
+}
+h1 {
+    animation: 1000ms changeColor infinite;
+    font-family: "Sofia", sans-serif;
+}
+@keyframes changeColor {
+    25% { color: #f55742; }
+    50% { color: #f5b942; }
+    75% { color: #099906; }
+    100% { color: #314d4a; }
+}
+td {
+    border:1px solid black;
+    height:220px;
+    width:220px;
+    background-color: #eaf07a;
+}
+th{
+    border:1px solid black;
+    background-color: aliceblue;
+    height: 30px;
+}
+table{
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box_no{
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.pic{
+    display: block;
+}
+
+.parts{
+    stroke: black;
+    stroke-width: 1.8%;
+    fill: #2f014a;
+}
+.gun{
+    stroke: black;
+    stroke-width: 1.5%;
+    fill: #2f014a;
+}
+.bullet{
+    fill:black;
+    stroke-width:3;
+    stroke:black;
+}
+line{
+    display: none;
+}
+circle{
+    display: none;
+}
+rect{
+    display: none;
+}
+#score1{
+    position: absolute;
+    left: 20%;
+}
+#score2{
+    position: absolute;
+    right: 20%;
+}
+.highscore1{
+    position: absolute;
+    top:7%;
+    left: 20%;
+}
+.highscore2{
+    position: absolute;
+    top:7%;
+    right: 20%;
+}
+#btn1{
+    font-family: "Sofia", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2b24f0;
+    background-color: #e4b1f0;
+    position: relative;
+    left:20%;
+    top:70px;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#btn2{
+    font-family: "Sofia", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2b24f0;
+    background-color: #e4b1f0;
+    position: absolute;
+    right:20%;
+    top:150px;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
